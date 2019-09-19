@@ -1,5 +1,7 @@
 # Todo MVC refactor to Stencil web components
 
+[See the examples running here](https://todo-mvc-apps.surge.sh)
+
 There are three projects within the packages folder
 
 todo-mvc-apps - this project is for the TodoApp applications we will be changing to use web components. Currently, there are two versions on for Vue and another for React.
@@ -13,6 +15,7 @@ To get set up using this repo is to run
 ```bash
 npm install
 npm run bootstrap
+npm start
 ```
 
 this will install the dependencies for all of the projects

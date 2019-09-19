@@ -10,7 +10,7 @@
     "deploy": "surge dist",
     "prebuild": "rm -rf dist .cache",
     "build": "NODE_ENV=production parcel build src/*.pug --no-source-maps",
-    "start": "NODE_ENV=development parcel src/*.pug"
+    "start": "NODE_ENV=development parcel src/*.pug --open"
   },
   "author": "",
   "license": "ISC",
