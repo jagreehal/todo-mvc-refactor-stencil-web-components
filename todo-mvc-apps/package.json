@@ -1,0 +1,31 @@
+{
+  "name": "todo-mvc-apps",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build && npm run copy",
+    "copy": "cp ./CNAME ./dist/CNAME",
+    "deploy": "surge dist",
+    "prebuild": "rm -rf dist .cache",
+    "build": "NODE_ENV=production parcel build src/*.pug --no-source-maps",
+    "start": "NODE_ENV=development parcel src/*.pug"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "use-custom-element": "^1.0.5",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.6.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

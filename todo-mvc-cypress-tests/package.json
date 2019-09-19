@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "todo-mvc-cypress-tests",
+  "version": "0.0.0-development",
+  "description": "This repo tests for todo mvc app with the tests written in Cypress",
+  "scripts": {
+    "cypress:version": "cypress version",
+    "cypress:verify": "cypress verify",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:record": "cypress run --record",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:headed": "cypress run --headed",
+    "start": "cypress open",
+    "lint": "eslint --fix cypress/*/*.js",
+    "types": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cypress/eslint-plugin-dev": "4.0.0",
+    "cypress": "^3.4.1",
+    "eslint": "^6.4.0",
+    "eslint-plugin-mocha": "^6.1.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  }
+}
