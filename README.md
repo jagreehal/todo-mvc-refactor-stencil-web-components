@@ -1,5 +1,7 @@
 # Todo MVC refactor to Stencil web components
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jagreehal/todo-mvc-refactor-stencil-web-components.svg)](https://greenkeeper.io/)
+
 [See the examples running here](https://todo-mvc-apps.surge.sh)
 
 There are three projects within the packages folder
