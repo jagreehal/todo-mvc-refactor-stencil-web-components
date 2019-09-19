@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "todo-mvc-apps/package.json",
+        "todo-mvc-stencil-web-components/package.json"
+      ]
+    }
+  }
+}
